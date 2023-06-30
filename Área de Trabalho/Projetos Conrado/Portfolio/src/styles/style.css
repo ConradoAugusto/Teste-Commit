@@ -1,0 +1,69 @@
+
+
+body {
+    font-family: dePixel;
+    color: rgb(255, 255, 255);
+    padding: 2.1875rem;
+    background-image: url(../assets/img/background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.bcgImg {
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/img/Art.svg);
+    background-size: 92%;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    margin-bottom: 6.25rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+nav li{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0 0 0 30px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.opening {
+    margin-left: -715px;
+    margin-top: 325px;
+    margin-bottom: 421px;
+}
+.featuredName {
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.devJsContents {
+    display: flex;
+    gap: 24px;
+}
+
+.titleDev {
+    display: flex;
+    font-size: 40px;
+    font-weight: 100;
+    justify-content: end;
+}
+
+.jsLogo {
+    width: 50px;
+}
